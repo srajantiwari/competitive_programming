@@ -1,0 +1,64 @@
+h1{
+    font-family: 'Major Mono Display',monospace;
+    font-size: 30px;
+    padding : 2px;
+    padding-left: 10px;
+}
+
+h2::first-letter{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Major Mono Display', monospace;
+    color:red;
+}
+
+#easy,#easy-medium {
+    padding-left: 2%;
+    border-style: solid;
+    padding-bottom: 10px;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    border-radius : 10px;
+    border-color: indianred;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(221,221,221,0.71);
+-moz-box-shadow: 10px 10px 5px 0px rgba(221,221,221,0.71);
+box-shadow: 10px 10px 5px 0px rgba(221,221,221,0.71);
+}
+
+
+a {
+    target="_blank";
+    text-decoration: none;
+    color: #cb6fc3;
+}
+
+li {
+    list-style: square;
+    padding: inherit;
+}
+
+
+#space {
+    padding: 20px;
+}
+
+#define {
+    font-family: 'Major Mono Display',sans-serif;
+    border-style: solid;
+    border-color: indianred;
+    padding: 2%;
+    border-radius : 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(221,221,221,0.71);
+-moz-box-shadow: 10px 10px 5px 0px rgba(221,221,221,0.71);
+box-shadow: 10px 10px 5px 0px rgba(221,221,221,0.71);
+}
+
+body {
+    padding-left: 2%;
+    padding-right:2%;
+}
