@@ -6,7 +6,7 @@ h1{
 }
 
 h2::first-letter{
-    font-family: 'Raleway', sans-serif;
+    text-transform: lowercase;
     font-size: 36px;
     letter-spacing: 2px;
     color: #000000;
@@ -17,7 +17,7 @@ h2 {
     color:red;
 }
 
-#easy,#easy-medium {
+#easy,#easy-medium,#insp{
     padding-left: 2%;
     border-style: solid;
     padding-bottom: 10px;
@@ -47,7 +47,7 @@ li {
     padding: 20px;
 }
 
-#define {
+#define{
     font-family: 'Major Mono Display',sans-serif;
     border-style: solid;
     border-color: indianred;
@@ -61,4 +61,34 @@ box-shadow: 10px 10px 5px 0px rgba(221,221,221,0.71);
 body {
     padding-left: 2%;
     padding-right:2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer{
+    display:inline-block;
+    position:relative;
+    margin:0.4em;  padding:1em;
+    cursor:pointer;
+    background:#802222;  color:#ff5722; 
+    z-index:0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#footer:before {
+    content: "";
+    position: absolute;
+    z-index:-1;
+    top: 0;  left: 0;  right: 0;  bottom: 0;
+    background: #ffee58;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform .3s ease-out;
+}
+
+#footer:hover:before{transform: scaleX(1);}
+
+#footerh {
+    font-family: 'Major Mono Display';
+    color: black;
 }
