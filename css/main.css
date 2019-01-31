@@ -67,12 +67,14 @@ body {
 #footer{
     display:inline-block;
     position:relative;
+    padding: 2%;
     margin:0.4em;  padding:1em;
     cursor:pointer;
     background:#802222;  color:#ff5722; 
     z-index:0;
     font-weight: bold;
     letter-spacing: 2px;
+    font-size: 120%;
 }
 
 #footer:before {
